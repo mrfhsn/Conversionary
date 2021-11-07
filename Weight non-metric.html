@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Weight non-metric</title>
+<link href="Convert style.css" rel="stylesheet" type="text/css">
+<link href="Header.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="Weight nm.js"></script>
+<link rel="icon" href="scaless.png">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<style>
+body
+{
+	background: url(Weight.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body>
+<h1>
+<img src="scaless 1.png" width="40px" height="43px" >
+<strong><k>Conversionary</k></strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp;
+<a href="Home.html">
+  <button  id="1" onClick="">Home</button>
+</a>
+<a href="Convertion-page.html">
+	<button id="1" onClick="">Convert</button>
+</a>
+<a href="About.html">
+	<button id="1" onClick="">About</button>
+</a>
+<a href="Contact.html"> 
+	<button id="1" onClick="">Contact</button>
+</a>
+
+</h1>
+<br><br><br><br>
+<z><h2>Weight(non-metric)</h2></z><br>
+
+<fieldset>
+
+<d1>From:</d1>
+<select id="selectors">
+	<option value="kg">kilogram</option>
+    <option value="g">gram</option>
+	<option value="mg">miligram</option>
+    <option value="p">pound-lb</option>
+    <option value="o">ounce-oz</option>
+    <option value="t">ton</option>
+    <option value="s">stone</option>
+    <option value="c">carat</option>
+    <!--<option value="a">a.m.u</option> -->  
+             
+</select>
+
+<input type="number" id="inpt" placeholder="Enter value" required><br><br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+
+<button onClick="convert();"  onKeyDown="convert();">
+Convert
+<span></span>
+<span></span>
+<span></span>
+
+</button><br><br>
+
+<d2>To:</d2>
+<select id="operators">
+	<option value="kg">kilogram</option>
+    <option value="g">gram</option>
+	<option value="mg">miligram</option>
+    <option value="p">pound-lb</option>
+    <option value="o">ounce-oz</option>
+    <option value="t">ton</option>
+    <option value="s">stone</option>
+    <option value="c">carat</option>
+    <!--<option value="a">a.m.u</option>-->
+        
+</select>
+    
+<input type="text" id="result"/>
+
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Temperature</title>
+
+    <script type="text/javascript" src="tempreter js.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Convert style.css">
+    <link href="Header.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="scaless.png">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<style>
+body
+{
+	background: url(Thermometer.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body>
+<h1>
+<img src="scaless 1.png" width="40px" height="43px" >
+<strong><k>Conversionary</k></strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp;
+<a href="Home.html">
+  <button  id="1" onClick="">Home</button>
+</a>
+<a href="Convertion-page.html">
+	<button id="1" onClick="">Convert</button>
+</a>
+<a href="About.html">
+	<button id="1" onClick="">About</button>
+</a>
+<a href="Contact.html"> 
+	<button id="1" onClick="">Contact</button>
+</a>
+
+</h1>
+<br><br><br><br>
+    <h2>Temperature</h2><br>
+
+    <fieldset>
+
+        <d1>From:</d1>
+        <select id="selectors">
+	<option value="c">Celsius</option>    
+    <option value="f">Farenhite</option>
+    <option value="k">Kelvin</option>
+      
+</select>
+
+        <input type="number" id="inpt" placeholder="Enter value" required><br><br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+
+        <button onClick="convert();" onKeyDown="convert();">
+Convert
+<span></span>
+<span></span>
+<span></span>
+
+</button><br><br><br>
+
+        <d2>To:</d2>
+        <select id="operators">
+	<option value="c">Celsius</option>    
+    <option value="f">Farenhite</option>
+    <option value="k">Kelvin</option>
+    
+</select>
+
+        <input type="text" id="result" />
+
+    </fieldset>
+
+</body>
+
+</html>
