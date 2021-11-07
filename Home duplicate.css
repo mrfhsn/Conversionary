@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+/* CSS Document */
+/*@font-face
+{
+	font-family: 'Trajan pro';
+	src: @import url(//db.onlinewebfonts.com/c/12d2fa3dcf227b9538084a6bcfeafcf0?family=Trajan+Pro);
+}*/
+/*@font-face {
+  font-family: 'Constantia';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Constantia'), url(https://fonts.gstatic.com/l/font?kit=L0x4DF8glV8Z-BmfyLPDXSJsjg&skey=d5629a58df22c8b4&v=v9) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+h1
+	{
+	display: block;
+	font-family: 'Cinzel Decorative', cursive;
+    font-weight: 400;
+    text-indent: 25px;
+	text-transform:uppercase;
+    /*50px;*/
+    font-size: 42px;
+    color: #2196f3;
+    text-align: left;
+    height: 52px;
+    width: 100%;
+    margin: auto;
+    border: double;
+    /*background-color:#000;*/
+    /*background-position: top;*/
+    border-bottom-width: 3px;
+    top: /*2px;*/
+    0px;
+    left: 0px;
+    /*box-shadow: 0 0 10px #000000;*/
+    border-image: linear-gradient(90deg, #06F, #0C6);
+    border-image-slice: 1;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    letter-spacing: 3px;
+    background-repeat: no-repeat;
+    background: rgba(25, 25, 25, .7);
+    position: fixed;
+	}
+	
+	k {
+    height: 43px;
+    width: 400px;
+    margin: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear, 0.00% 0.00%, 100.00% 100.00%, color-stop( 0%, rgba(0, 102, 255, 1.00)), color-stop( 100%, rgba(0, 204, 102, 1.00)));
+    background-image: -webkit-linear-gradient(225deg, rgba(0, 102, 255, 1.00) 0%, rgba(0, 204, 102, 1.00) 100%);
+    background-image: linear-gradient(45deg, rgba(0, 102, 255, 1.00) 0%, rgba(0, 204, 102, 1.00) 100%);
+}
+
+div {
+	top: 10px;
+    margin:auto;
+	width: /*750px*/ 650px;
+	height: 575px;
+	
+	
+	padding-bottom: 70px;
+	padding-left: 63px;
+	padding-right: 63px;
+	padding-top: 25px;
+	text-align: center;
+	font-size: 30px;
+	color: #0FF;
+	background-color: rgba(20,20,20,0.5);
+	font-weight: 500;
+	
+}
+p
+{
+	color: #fff;
+	top: 5px;
+	font-size: 28px;
+	font-family:  /*'Grenze Gotisch', cursive;*/ /*'Spectral SC', serif;*/ 'Fenix', serif;
+	text-align: center;
+	position: inherit;
+}
+
+button[id] {
+    position: relative;
+    display: inline-block;
+    width: 91px;
+    height: /*27px;*/ 44px;
+    color: #2196f3;
+    margin: auto;
+    bottom: 12px;
+	font-family: /*'Constantia'*/ /*'Poppins', sans-serif ;*/ 'Fenix', serif;
+    font-size: 20px;
+	/*font-weight: 400;*/
+    font-weight: bolder;
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: #000;
+	/*border: none;*/
+	border-top: 3px solid;
+	border-image: linear-gradient(45deg, #06F, #0C6);
+    border-image-slice: 1;
+	border-right: 0px;
+    border-left: 0px;
+	border-bottom: 0px;
+	
+	
+    /*border: 3px solid #09f;
+    border-image: linear-gradient(45deg, #06F, #0C6);
+    border-image-slice: 1;*/
+}
+
+button[id]:hover {
+    color: #FFF;
+    background-image: -webkit-gradient(linear, 0.00% 0.00%, 100.00% 100.00%, color-stop( 0%, rgba(0, 102, 255, 1.00)), color-stop( 100%, rgba(0, 204, 102, 1.00)));
+    background-image: -webkit-linear-gradient(225deg, rgba(0, 102, 255, 1.00) 0%, rgba(0, 204, 102, 1.00) 100%);
+    background-image: linear-gradient(45deg, rgba(0, 102, 255, 1.00) 0%, rgba(0, 204, 102, 1.00) 100%);
+}
+
+a {
+    color: transparent;
+}
+

@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Currency</title>
+<script type="text/javascript" src="Currency.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Convert style.css">
+<link href="Header.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="scaless.png">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<style>
+body
+{
+	background: url(Currency.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body>
+<h1>
+<img src="scaless 1.png" width="40px" height="43px" >
+<strong><k>Conversionary</k></strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp;
+<a href="Home.html">
+  <button  id="1" onClick="">Home</button>
+</a>
+<a href="Convertion-page.html">
+	<button id="1" onClick="">Convert</button>
+</a>
+<a href="About.html">
+	<button id="1" onClick="">About</button>
+</a>
+<a href="Contact.html"> 
+	<button id="1" onClick="">Contact</button>
+</a>
+
+</h1>
+<br><br><br><br>
+<h2>Currency</h2><br>
+<fieldset>
+
+<d1>From:</d1>
+<select id="selectors">
+	<option value="us">US-Dollar</option>    
+    <option value="af">Afghanistan-Afghani</option>
+    <option value="ar">Argentina-Peso</option>
+    <option value="au">Australia-Dollar</option>
+    <option value="at">Austria-Schilling</option>
+    <option value="bh">Bahrain-Dinar</option>
+    <option value="bn">Bangladesh-Taka</option>
+    <option value="bt">Bitcoin</option>
+    <option value="br">Brazil-Real</option>
+    <option value="bu">Bulgeria-Lev</option>
+    <option value="cn">Canada-Dollar</option>
+    <option value="ch">China-Yuan</option>
+    <option value="co">Colombia-Peso</option>
+    <option value="cr">Croatia-Kuna</option>
+    <option value="dn">Denmark-krone</option>
+    <option value="eg">Egypt-Pound</option>
+    <option value="eu">EU-Euro</option>
+    <option value="hn">Hungary-Forint</option>
+    <option value="ia">India-Rupee</option>
+    <option value="id">Indonesia-Rupiah</option>
+    <option value="ir">Iran-Rial</option>
+    <option value="iq">Iraq-Dinar</option>
+    <option value="is">Israel-Sheqel</option>
+    <option value="j">Japan-Yen</option>
+    <option value="k">Kuwait-Dinar</option>
+    <option value="ma">Malaysia-Ringgit</option>
+    <option value="me">Mexico-Peso</option>
+    <option value="mo">Morocco-Dirham</option>
+    <option value="np">Nepal-Rupee</option>
+    <option value="nz">New Zeland-Dollar</option>
+    <option value="nr">Norway-Krone</option>
+    <option value="pk">Pakistan-Rupee</option>
+    <option value="po">Poland-Zloty</option>
+    <option value="q">Qatar-Riyal</option>
+    <option value="rs">Russia-Ruble</option>
+    <option value="sa">Saudi Arabia-Riyal</option>
+    <option value="si">Singapore-Dollar</option>
+    <option value="sf">South Africa-Rand</option>
+    <option value="sk">South Korea-Won</option>
+    <option value="sl">Sri Lanka-Rupee</option>
+    <option value="sw">Sweden-Krona</option>
+    <option value="st">Switzerland-Franc</option>
+    <option value="th">Thailand-Baht</option>
+    <option value="tr">Turkey-Lira</option>
+    <option value="ua">UAE-Dirham</option>
+    <option value="uk">UK-Pound Sterling</option>
+    <option value="us">US-Dollar</option>    
+         
+</select>
+
+<input type="number" id="inpt" placeholder="Enter value" required><br><br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+
+<button onClick="convert();"  onKeyDown="convert();">
+Convert
+<span></span>
+<span></span>
+<span></span>
+
+</button><br><br>
+
+<d2>To:</d2>
+<select id="operators">
+	<option value="us">US-Dollar</option>    
+    <option value="af">Afghanistan-Afghani</option>
+    <option value="ar">Argentina-Peso</option>
+    <option value="au">Australia-Dollar</option>
+    <option value="at">Austria-Schilling</option>
+    <option value="bh">Bahrain-Dinar</option>
+    <option value="bn">Bangladesh-Taka</option>
+    <option value="bt">Bitcoin</option>
+    <option value="br">Brazil-Real</option>
+    <option value="bu">Bulgeria-Lev</option>
+    <option value="cn">Canada-Dollar</option>
+    <option value="ch">China-Yuan</option>
+    <option value="co">Colombia-Peso</option>
+    <option value="cr">Croatia-Kuna</option>
+    <option value="dn">Denmark-krone</option>
+    <option value="eg">Egypt-Pound</option>
+    <option value="eu">EU-Euro</option>
+    <option value="hn">Hungary-Forint</option>
+    <option value="ia">India-Rupee</option>
+    <option value="id">Indonesia-Rupiah</option>
+    <option value="ir">Iran-Rial</option>
+    <option value="iq">Iraq-Dinar</option>
+    <option value="is">Israel-Sheqel</option>
+    <option value="j">Japan-Yen</option>
+    <option value="k">Kuwait-Dinar</option>
+    <option value="ma">Malaysia-Ringgit</option>
+    <option value="me">Mexico-Peso</option>
+    <option value="mo">Morocco-Dirham</option>
+    <option value="np">Nepal-Rupee</option>
+    <option value="nz">New Zeland-Dollar</option>
+    <option value="nr">Norway-Krone</option>
+    <option value="pk">Pakistan-Rupee</option>
+    <option value="po">Poland-Zloty</option>
+    <option value="q">Qatar-Riyal</option>
+    <option value="rs">Russia-Ruble</option>
+    <option value="sa">Saudi Arabia-Riyal</option>
+    <option value="si">Singapore-Dollar</option>
+    <option value="sf">South Africa-Rand</option>
+    <option value="sk">South Korea-Won</option>
+    <option value="sl">Sri Lanka-Rupee</option>
+    <option value="sw">Sweden-Krona</option>
+    <option value="st">Switzerland-Franc</option>
+    <option value="th">Thailand-Baht</option>
+    <option value="tr">Turkey-Lira</option>
+    <option value="ua">UAE-Dirham</option>
+    <option value="uk">UK-Pound Sterling</option>
+    <option value="us">US-Dollar</option> 
+    
+</select>
+    
+<input type="text" id="result"/>
+
+</fieldset>
+</body>
+</html>

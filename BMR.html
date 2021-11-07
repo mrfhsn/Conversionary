@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BMR</title>
+<script type="text/javascript" src="bmr.js"></script>
+
+<link rel="stylesheet" type="text/css" href="bmr.css">
+<link href="Header.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="scaless.png">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<style>
+body
+{
+	background: url(BMR.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+</style>
+</head>
+
+<body>
+<h1>
+<img src="scaless 1.png" width="40px" height="43px" >
+<strong><k>Conversionary</k></strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp;
+<a href="Home.html">
+  <button  id="1" onClick="">Home</button>
+</a>
+<a href="Convertion-page.html">
+	<button id="1" onClick="">Convert</button>
+</a>
+<a href="About.html">
+	<button id="1" onClick="">About</button>
+</a>
+<a href="Contact.html"> 
+	<button id="1" onClick="">Contact</button>
+</a>
+</h1>
+<br><br><br><br>
+<h2>BMR</h2><br>
+<fieldset>
+
+<d1>Gender:</d1>
+<select id="selectors">
+	<option value="m">Male</option>    
+    <option value="f">Female</option>
+      
+</select><br><br>
+
+<d1>Heigth:</d1>&nbsp;&nbsp;
+<select id="selectors1">
+	<option value="m">meter</option>
+    <option value="c">centimeter</option>    
+    <option value="i">inch</option>
+      
+</select>
+
+<input type="number" id="inpt1" placeholder="Enter value" required><br><br>
+
+<d1>Weight:</d1>&nbsp;
+<select id="selectors2">
+	<option value="k">kilogram</option>    
+    <option value="p">pound-lb</option>
+      
+</select>
+
+<input type="number" id="inpt2" placeholder="Enter value" required><br><br>
+
+<d1>Age(in year):</d1>
+<input type="number" id="inpt3" placeholder="Enter value" required><br><br>
+
+<d1>Choose option:</d1><br>
+<select id="selectors3">
+	<option value="1">Not industrious</option>
+    <option value="2">2 or 3 days of work in a week</option>
+    <option value="3">2 or 3 days of hard work in a week</option>    
+    <option value="4">Hard work everyday in a week</option>
+    <option value="5">Too much hard work everyday in a week</option>
+       
+</select>
+
+<br><br><br><br> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+
+<button id="2" onClick="convert();"  onKeyDown="convert();">
+Convert
+<span></span>
+<span></span>
+<span></span>
+
+</button>
+<br><br><br><br>
+
+<d2>BMR:</d2>
+   
+<input type="text" id="result"/>
+
+</fieldset>
+</body>
+</html>

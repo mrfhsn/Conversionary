@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Power</title>
+<script type="text/javascript" src="Power.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Convert style.css">
+<link href="Header.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="scaless.png">
+<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+<style>
+body
+{
+	background: url(Power.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+</style>
+</head>
+
+<body>
+<h1>
+<img src="scaless 1.png" width="40px" height="43px" >
+<strong><k>Conversionary</k></strong>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp;
+<a href="Home.html">
+  <button  id="1" onClick="">Home</button>
+</a>
+<a href="Convertion-page.html">
+	<button id="1" onClick="">Convert</button>
+</a>
+<a href="About.html">
+	<button id="1" onClick="">About</button>
+</a>
+<a href="Contact.html"> 
+	<button id="1" onClick="">Contact</button>
+</a>
+
+</h1>
+<br><br><br><br>
+<h2>Power</h2><br>
+<fieldset>
+
+<d1>From:</d1>
+<select id="selectors">
+	<option value="w">watt</option>    
+    <option value="k">Kilowatt</option>
+    <option value="m">Megawatt</option>
+    <option value="g">Gigawatt</option>
+    <option value="h">horsepower</option>
+    <option value="b">Btu/hour</option>
+    <option value="c">calorie/hour</option>
+    <option value="kc">kilocalorie/hour</option>
+    <option value="e">erg/second</option>
+      
+</select>
+
+<input type="number" id="inpt" placeholder="Enter value" required><br><br><br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp;
+
+<button onClick="convert();"  onKeyDown="convert();">
+Convert
+<span></span>
+<span></span>
+<span></span>
+
+</button><br><br>
+
+<d2>To:</d2>
+<select id="operators">
+	<option value="w">watt</option>    
+    <option value="k">Kilowatt</option>
+    <option value="m">Megawatt</option>
+    <option value="g">Gigawatt</option>
+    <option value="h">horsepower</option>
+    <option value="b">Btu/hour</option>
+    <option value="c">calorie/hour</option>
+    <option value="kc">kilocalorie/hour</option>
+    <option value="e">erg/second</option>
+          
+</select>
+    
+<input type="text" id="result"/>
+
+</fieldset>
+</body>
+</html>

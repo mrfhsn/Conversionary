@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
+
+
+h1
+{
+	display: block;
+	font-family:'Cinzel Decorative', cursive;/* Once Trajan pro*/ /* 'Constantia' --> A good font */ 
+	font-weight: 400;
+	text-indent: 25px;
+	font-size: 41px;
+	text-transform: uppercase;
+	color: #2196f3;
+	text-align: left;
+	
+	height: 52px;
+	width: /*1280px;*/ 100%;
+	margin: auto;
+	border: double;
+
+	background-position: center;
+	border-bottom-width: 3px;
+	top: /*2px;*/ 0px;
+	left: 0px;
+
+	border-image: linear-gradient(90deg,#06F,#0C6);
+	border-image-slice: 1;
+	border-top: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	letter-spacing: 3px;
+	background-repeat:no-repeat;
+	background: rgba(25,25,25,.8);
+	position: fixed;
+	/*background-position:center;*/
+}
+
+strong
+{
+	height: 43px;
+	width: 400px;
+	/*top: 1px;*/
+	margin: auto;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-gradient(linear, 0.00% 0.00%, 100.00% 100.00%, color-stop( 0% , rgba(0,102,255,1.00)),color-stop( 100% , rgba(0,204,102,1.00)));
+	background-image: -webkit-linear-gradient(225deg,rgba(0,102,255,1.00) 0%,rgba(0,204,102,1.00) 100%);
+	background-image: linear-gradient(45deg,rgba(0,102,255,1.00) 0%,rgba(0,204,102,1.00) 100%);
+}
+
+button[id="1"]
+{
+	position: relative;
+    display: inline-block;
+    width: 91px;
+    height: /*27px;*/ 45px;
+	font-family: 'Fenix', serif;
+    color: #2196f3;
+    margin: auto;
+    bottom: 12px;
+    font-size: 20px;
+    /*font-weight: 400;*/
+	font-weight: bolder;
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: transparent;
+	/*border: none;*/
+	border-top: 3px solid;
+	border-image: linear-gradient(45deg, #06F, #0C6);
+    border-image-slice: 1;
+	border-right: 0px;
+    border-left: 0px;
+	border-bottom: 0px;
+}
+
+button[id="1"]:hover
+{
+	color: #FFF;
+	
+	background-image: -webkit-gradient(linear, 0.00% 0.00%, 100.00% 100.00%, color-stop( 0% , rgba(0,102,255,1.00)),color-stop( 100% , rgba(0,204,102,1.00)));
+	background-image: -webkit-linear-gradient(225deg,rgba(0,102,255,1.00) 0%,rgba(0,204,102,1.00) 100%);
+	background-image: linear-gradient(45deg,rgba(0,102,255,1.00) 0%,rgba(0,204,102,1.00) 100%);
+}
+
+a{color: transparent;}
+
+
+
+
+/*-----------------------------------------------------------------------------*/
+
+
